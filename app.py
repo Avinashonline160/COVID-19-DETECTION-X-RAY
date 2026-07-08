@@ -8,7 +8,7 @@ from PIL import Image
 # ---------------------------------------------------
 st.set_page_config(
     page_title="COVID-19 Chest X-Ray Detection",
-    page_icon="🫀",
+    page_icon="🫁",
     layout="wide"
 )
 
@@ -24,7 +24,7 @@ model = load_model()
 # ---------------------------------------------------
 # Title
 # ---------------------------------------------------
-st.title("🫀 COVID-19 Detection from Chest X-Ray")
+st.title("🫁 COVID-19 Detection from Chest X-Ray")
 
 st.write(
     """
@@ -76,16 +76,3 @@ if uploaded_file is not None:
 
     st.write(f"Confidence : **{confidence:.2f}%**")
 
-# ---------------------------------------------------
-# Developer Corner
-# ---------------------------------------------------
-st.markdown("---")
-st.header("💻 About Developer")
-
-st.markdown("""
-**Developer:** Ayush Kumar Tiwari
-
-🔗 **LinkedIn:** https://www.linkedin.com/in/ayush-tiwari-80a3b031b/
-
-💻 **GitHub:** https://github.com/ayush7302
-""")
