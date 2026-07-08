@@ -75,4 +75,18 @@ if uploaded_file is not None:
     st.progress(float(confidence / 100))
 
     st.write(f"Confidence : **{confidence:.2f}%**")
+    # ---------------------------------------------------
+# Developer Corner
+# ---------------------------------------------------
+st.markdown("---")
+st.header("💻 Developer Info")
+
+st.markdown("""
+**Developer:** Avinash patel
+
+
+
+💻 **GitHub:** https://github.com/Avinashonline160/COVID-19-DETECTION-X-RAY
+""")
+
 
